@@ -1,9 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://say-what.site/styles.css" rel="stylesheet" type="text/css">
+<script src="https://say-what.site/scripts.js" type="text/javascript"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
 <center>Welcome!
 <hr><a href="https://www.interserver.net/r/900582"><img alt="InterServer Web Hosting and VPS" src="https://www.interserver.net/logos/Y2019-970x90-1.gif" /></a>
 <hr>Say-What.site status: Ok!
 </center>
-<hr>
-<p align="right"><strong><br><a href="#footer">Go to Footer \/</a></strong></p>
+<hr><p align="right"><strong><br><a href="#footer">Go to Footer \/</a></strong></p><hr>
 <center><select id="menu_sws" name="menu_sws" style="width: 100%;">
 <option value="#top" title="">Welcome to Say-What.site</option>
 <option value="https://Say-What.site" target="_blank">Say-What.site</option>		
@@ -15,7 +23,7 @@ urlmenu.onchange = function() {
 window.open( this.options[ this.selectedIndex ].value, "_blank" );
 };
 </script></center>
-<p align="right">| <a href="#resources" title=""><i class="fas fa-cogs"></i>&nbsp; Resources</a> | <a href="#chat" title=""><i class="fas fa-comments"></i>&nbsp; Chat</a> | <a href="#says" title=""><i class="fas fa-commenting"></i>&nbsp; Comments</a> |</p>
+<hr><p align="right">| <a href="#resources" title=""><i class="fas fa-cogs"></i>&nbsp; Resources</a> | <a href="#chat" title=""><i class="fas fa-comments"></i>&nbsp; Chat</a> | <a href="#says" title=""><i class="fas fa-commenting"></i>&nbsp; Comments</a> |</p>
 <hr>
 <a id="resources"></a><br>
 <center><iframe src='https://Say-What.site' title="" width="95%" height="1234px"></iframe></center>
@@ -43,10 +51,12 @@ Your Comments that Matters!
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 <script id="dsq-count-scr" src="//say-what-site.disqus.com/count.js" async></script>
-<p align="right"><strong><br><a href="#top">Go to Top /\</a></strong></p>
+
+<hr><p align="right"><strong><br><a href="#top">Go to Top /\</a></strong></p><hr>
 
 <hr><div style="overflow-x:auto;"><center><a href="https://www.interserver.net/r/900582"><img alt="InterServer Web Hosting and VPS" src="https://www.interserver.net/logos/Y2019-970x90-1.gif" /></a></center></div><hr>
-<h2 class='title'><a title="Random quotes diferently presented at each new page load."><i class="fa fa-info-circle" aria-hidden="true"></i></a>&nbsp;Quotes</h2>
+
+<hr><h2 class='title'><a title="Random quotes diferently presented at each new page load."><i class="fa fa-info-circle" aria-hidden="true"></i></a>&nbsp;Quotes</h2>
 <p id="quoteWrapper"></p>
 <script type="text/javascript">
 var Quotes =
@@ -70,5 +80,7 @@ ctl.innerHTML = quote;
 };
 Quotes.getRandomQuote();
 </script>
-
+<hr>
 <a id="footer"></a>
+</body>
+</html>
